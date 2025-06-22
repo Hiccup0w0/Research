@@ -29,3 +29,6 @@ A file has all properties
 
 ---
 ![image](https://github.com/user-attachments/assets/5363cd66-1694-44cb-bfbd-32ba1f7db35c)
+
+and like you see file2 has `.` before it so it is hidden file
+`cat ./maybehere07/.file2`
