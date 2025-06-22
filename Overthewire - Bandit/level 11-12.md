@@ -19,5 +19,7 @@ So to solve  Iit just used ROT13 encoding for this string cuz it will rotate the
 
 ## cat file name | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
----
--tr is translate 
+tr 'set1' 'set2'
+
+set1 is a original string like abCd and set2 is the way how it will decode or encode by move the letter position 13times. `tr` command will replace each character from set 1 with charecters rotated 13 times.
+
