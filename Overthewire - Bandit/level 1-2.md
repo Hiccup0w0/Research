@@ -9,4 +9,4 @@ Google Search for “dashed filename”
 Advanced Bash-scripting Guide - Chapter 3 - Special Characters
 ```
 
-there have a special file call `dashed filename`. This file can't open by just `cat`, you need to use `cat ./-` or `cat < -`
+there is a special file called `dashed filename`. This file can't be opened with `cat`, you need to use `cat ./-` or `cat < -`
