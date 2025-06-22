@@ -16,3 +16,20 @@ At this level you just need to learn how to use `ssh` to connect to bandit serve
 EX: `bandit0@bandit.labs.overthewire.org -p 2220`  pass is bandit 0 and after getting the password you need to `exit` to exit the server
 
 And at this level you only need to use `ls` command to show how many files and directories there are and `cat` command to read or edit it. you can solve this level or others by many different way.
+
+
+```
+bandit0@bandit:~$ cat readme
+Congratulations on your first steps into the bandit game!!
+Please make sure you have read the rules at https://overthewire.org/rules/
+If you are following a course, workshop, walkthrough or other educational activity,
+please inform the instructor about the rules as well and encourage them to
+contribute to the OverTheWire community so we can keep these games free!
+
+The password you are looking for is: 
+
+bandit0@bandit:~$ exit
+logout
+Connection to bandit.labs.overthewire.org closed.
+
+```
