@@ -57,7 +57,7 @@ và thêm 1 vẫn đề nữa là không thể tạo 1 file mới ở thư mục
 bandit12@bandit:~$ xxd -r data.txt > data
 -bash: data: Permission denied
 ```
-vậy nên mình đã tạo 1 đường dẫn `mkdir /tmp/hiii` 
+vậy nên mình đã tạo 1 thư mục trong thư mục /tmp `mkdir /tmp/hiii` 
 
 # Note
 
