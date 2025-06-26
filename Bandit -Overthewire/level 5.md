@@ -17,7 +17,7 @@ như phần mô tả thì file chứa pass nằm trong đống đường thư m�
 
 ![image](https://github.com/user-attachments/assets/454b500f-1ede-4c43-b30b-0edd057d1190)
 
-và `find` trong linuz giúp tìm file theo điều kiện của file đó 
+và `find` trong linuz giúp tìm file theo điều kiện của file đó
 ```
 bandit5@bandit:~/inhere$ find -type f -size 1033c ! -executable
 ./maybehere07/.file2
@@ -28,5 +28,5 @@ bandit5@bandit:~/inhere$ find -type f -size 1033c -not -executable
 ---
 # Note
 
-`-executable ` là 1 biểu thức kiểm tra chứ ko phải 1 option.
+`-type  , size, exe` không phải là option mà là biểu thức điều kiện và như cái tên của nó thôi.
   
